@@ -1,0 +1,29 @@
+@import '%PUBLIC_URL%/../src/Assets/Sass/_color.sass'
+
+@mixin padding()
+    $padding: 45px
+    padding-left: $padding
+    padding-right: $padding
+    @media (max-width: 991.98px)
+        $padding: 30px
+        padding-left: $padding
+        padding-right: $padding
+
+a
+    button
+        color: $color4
+        cursor: pointer
+        height: 50px
+        @include padding()
+        border-radius: 11px
+        background-color: $color1
+        border: 0
+        font-family: "Archivo Black", sans-serif
+        font-size: 19px
+        font-weight: bold
+        transition: 0.1s ease-out
+        &:hover
+            background-color: $color1
+            transform: scale(106%)
+    &::hover
+        background-color: $color2
