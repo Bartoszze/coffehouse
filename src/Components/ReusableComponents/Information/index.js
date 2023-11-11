@@ -6,7 +6,7 @@ import Button from "../Button";
 
 const Information = (props) => {
   const infoDirection = {
-    // flexDirection: props.direction ? "row" : "row-reverse",
+    flexDirection: props.direction ? "row" : "row-reverse",
   };
 
   return (

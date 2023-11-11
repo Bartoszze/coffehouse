@@ -31,7 +31,7 @@ const Nav = () => {
           <Link to={`/`}>Home</Link>
         </li>
         <li>
-          <Link to={`/menu`}>Rules</Link>
+          <Link to={`/menu`}>Menu</Link>
         </li>
         <li>
           <Link to={`https://www.youtube.com/`}>Shop</Link>

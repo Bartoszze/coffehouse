@@ -1,18 +1,16 @@
 import Block from "../../Components/ReusableComponents/Block";
-import Headline from "../../Components/ReusableComponents/Headline";
-import ImagesHeadline from "../../Components/ImagesHeadline";
-import Button from "../../Components/ReusableComponents/Button";
 import Information from "../../Components/ReusableComponents/Information";
 import Gallery from "../../Components/Gallery";
+import Aside from "../../Components/Aside";
+import Contact from "../../Components/Contact";
+import Footer from "../../Components/Footer";
+import Header from "../../Components/Header";
 
 const HomePage = () => {
   return (
     <>
       <Block color="#F4E5DA">
-        <Headline h="h1" text="NASZA KAWA" />
-        <Headline h="h2" text="TWÓJ UŚMIECH" />
-        <Button text="Sprawdź nasze menu" />
-        <ImagesHeadline />
+        <Header />
       </Block>
       <Block color="#F9FAFB">
         <Information />
@@ -23,6 +21,9 @@ const HomePage = () => {
       <Block color="#F9FAFB">
         <Information direction={true} />
       </Block>
+      <Aside />
+      <Contact />
+      <Footer />
     </>
   );
 };
