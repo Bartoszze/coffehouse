@@ -9,16 +9,16 @@ import Header from "../../Components/Header";
 const HomePage = () => {
   return (
     <>
-      <Block color="#F4E5DA">
+      <Block id="hea">
         <Header />
       </Block>
-      <Block color="#F9FAFB">
+      <Block>
         <Information />
       </Block>
-      <Block color="#F9FAFB">
+      <Block>
         <Gallery />
       </Block>
-      <Block color="#F9FAFB">
+      <Block>
         <Information direction={true} />
       </Block>
       <Aside />

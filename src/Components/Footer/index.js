@@ -13,12 +13,15 @@ const Footer = () => {
         <Headline h="h3" text="Adres" />
         <Text color={color} text="ul. Adres 12/3" />
       </div>
+
       <div className="footer__block">
         <Headline h="h2" text="Social" />
         <Text color={color} text="Instagram" />
         <Text color={color} text="Facebook" />
         <Text color={color} text="Youtube" />
       </div>
+      <div className="footer__block" />
+
       <div className="footer__block">
         <Headline h="h2" text="Godziny otwarcia" />
         <Text color={color} text="Pon. 06:00 - 19:30" />
