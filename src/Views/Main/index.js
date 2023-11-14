@@ -1,16 +1,22 @@
 import Loader from "../Loader/";
 import { Suspense, lazy } from "react";
 import { Outlet } from "react-router-dom";
+import "./index.sass";
+import "aos/dist/aos.css";
+import AOS from "aos";
 const Nav = lazy(() => import("../../Components/Nav"));
 
 const Main = () => {
+  AOS.init({
+    once: true,
+  });
   return (
-    <div className="container">
-      <Nav />
-      <Suspense fallback={<Loader />}>
+    <Suspense fallback={<Loader />}>
+      <div className="container">
+        <Nav />
         <Outlet />
-      </Suspense>
-    </div>
+      </div>
+    </Suspense>
   );
 };
 

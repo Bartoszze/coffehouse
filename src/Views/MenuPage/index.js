@@ -5,7 +5,7 @@ import Footer from "../../Components/Footer";
 const MenuPage = () => {
   return (
     <>
-      <Block color="#F4E5DA">
+      <Block id="hea">
         <Header />
       </Block>
       <Footer />

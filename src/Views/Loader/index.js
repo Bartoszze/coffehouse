@@ -1,8 +1,10 @@
-const Loader = () => {
+import "./index.sass";
+
+const Loader = (props) => {
   return (
-    <>
-      <h1>Loader</h1>
-    </>
+    <div className={`loader${props.ready ? " ready" : ""}`}>
+      <h1>Ładowanie. . . </h1>
+    </div>
   );
 };
 

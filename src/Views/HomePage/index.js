@@ -15,13 +15,13 @@ const HomePage = () => {
       <Block>
         <Information />
       </Block>
-      <Block>
-        <Gallery />
-      </Block>
+      <Aside />
       <Block>
         <Information direction={true} />
       </Block>
-      <Aside />
+      <Block id="gal">
+        <Gallery />
+      </Block>
       <Contact />
       <Footer />
     </>
