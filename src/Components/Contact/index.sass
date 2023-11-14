@@ -3,14 +3,17 @@
 .contact
     border-radius: 11px
     background-color: $color2
-    padding: 25px
+    padding: 65px
     display: flex
     justify-content: center
     align-items: center
-    width: fit-content
-    $size: 50px
-    min-width: 50%
-    margin: $size auto $size auto
+    flex-direction: column
+    $size: 150px
+    margin: -150px 0 150px 0
+    background: url("../../Assets/Images/coffe.jpg")
+    background-position: center
+    button
+        margin: 25px
     img
         display: flex
         justify-content: center
@@ -18,12 +21,17 @@
         height: 256px
     h2
         margin: 0
-        color: $color4
+        color: $color2
         margin-bottom: -30px
     input
+        margin-top: 10px
         padding: 10px
         border-radius: 11px
         border: 0
+        background-color: $color4
+        height: 45px
+        width: 50%
+
     &:active
         input
             border: 1px solid #color1
