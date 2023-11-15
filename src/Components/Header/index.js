@@ -5,11 +5,7 @@ import "./index.sass";
 
 const Header = () => {
   return (
-    <div
-      className="center"
-      data-aos="fade-up"
-      data-aos-anchor-placement="bottom-bottom"
-    >
+    <div className="center">
       <Headline h="h1" text="NASZA KAWA" />
       <Headline h="h2" text="TWÓJ UŚMIECH" />
       <Button text="Sprawdź nasze menu" />
