@@ -23,7 +23,7 @@ const Information = (props) => {
         data-aos="zoom-out"
       >
         <Headline h="h2" text={props.headline} />
-        <Text color="#FF9B53" text={props.text} />
+        <Text color="#a57053" text={props.text} />
         <Button text="Galeria" />
       </div>
     </div>

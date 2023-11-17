@@ -3,7 +3,7 @@ import Headline from "../ReusableComponents/Headline";
 import Text from "../ReusableComponents/Text";
 
 const Footer = () => {
-  const color = "#FF9B53";
+  const color = "#a57053";
   return (
     <div className="footer">
       <div className="footer__block">
@@ -13,14 +13,12 @@ const Footer = () => {
         <Headline h="h3" text="Adres" />
         <Text color={color} text="ul. Adres 12/3" />
       </div>
-
       <div className="footer__block">
         <Headline h="h2" text="Social" />
         <Text color={color} text="Instagram" />
         <Text color={color} text="Facebook" />
         <Text color={color} text="Youtube" />
       </div>
-      <div className="footer__block" />
 
       <div className="footer__block">
         <Headline h="h2" text="Godziny otwarcia" />
