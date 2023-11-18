@@ -9,11 +9,7 @@ import img6 from "../../Assets/Images/insta6.png";
 
 const Gallery = () => {
   return (
-    <div
-      className="gallery"
-      data-aos="fade-up"
-      data-aos-anchor-placement="bottom-bottom"
-    >
+    <div className="gallery" data-aos="fade-up">
       <Headline h="h2" text="INSTAGRAM" />
       <div className="gallery__insta">
         <img alt="coffe" src={img1} />

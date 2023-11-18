@@ -5,8 +5,8 @@ import Aside from "../../Components/Aside";
 import Contact from "../../Components/Contact";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
-import img from "../../Assets/Images/img4.png";
-import img2 from "../../Assets/Images/img5.png";
+import img from "../../Assets/Images/aaaa.png";
+import img2 from "../../Assets/Images/aaa.jpg";
 
 const HomePage = () => {
   return (
