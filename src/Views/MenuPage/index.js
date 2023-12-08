@@ -1,13 +1,17 @@
-import Header from "../../Components/Header";
 import Block from "../../Components/ReusableComponents/Block";
 import Footer from "../../Components/Footer";
+import HeaderMenu from "../../Components/HeaderMenu";
+import Menu from "../../Components/Menu";
+import Contact from "../../Components/Contact";
 
 const MenuPage = () => {
   return (
     <>
-      <Block id="hea">
-        <Header />
+      {/* <HeaderMenu /> */}
+      <Block>
+        <Menu />
       </Block>
+      <Contact />
       <Footer />
     </>
   );

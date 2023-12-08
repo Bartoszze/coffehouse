@@ -5,11 +5,13 @@ import "./index.sass";
 
 const Contact = () => {
   return (
-    <div className="contact">
-      <Headline h="h2" text="Masz pytanie?" />
-      <Text color="#a57053" text="Zostaw nam swojego maila, odezwiemy się!" />
-      <input type="text" />
-      <Button text="Wyślij" />
+    <div className="width">
+      <div className="contact">
+        <Headline h="h2" text="Masz pytanie?" />
+        <Text color="#a57053" text="Zostaw nam swojego maila, odezwiemy się!" />
+        <input type="text" />
+        <Button text="Wyślij" />
+      </div>
     </div>
   );
 };

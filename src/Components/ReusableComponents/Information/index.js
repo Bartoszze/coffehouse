@@ -24,7 +24,7 @@ const Information = (props) => {
       >
         <Headline h="h2" text={props.headline} />
         <Text color="#a57053" text={props.text} />
-        <Button text="Galeria" />
+        <Button text={props.button} />
       </div>
     </div>
   );
