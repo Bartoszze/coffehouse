@@ -21,30 +21,30 @@
     transform: translate($x,-50%)
     border-radius: 11px
     transition: 0.2s ease-out
-a
-    button
-        position: relative
-        color: $color4
-        cursor: pointer
-        height: 50px
-        @include padding()
-        border-radius: 11px
-        background-color: $color1
-        border: 0
-        font-family: "Archivo Black", sans-serif
-        font-size: 19px
-        font-weight: bold
-        transition: 0.1s ease-out
-        overflow: hidden
-        &::before
-            @include class($color: $color1, $index: -1 , $x : -50% )
+
+button
+    position: relative
+    color: $color4
+    cursor: pointer
+    height: 50px
+    @include padding()
+    border-radius: 11px
+    background-color: $color1
+    border: 0
+    font-family: "Archivo Black", sans-serif
+    font-size: 19px
+    font-weight: bold
+    transition: 0.1s ease-out
+    overflow: hidden
+    &::before
+        @include class($color: $color1, $index: -1 , $x : -50% )
+    &::after
+        @include class($color: $color10, $index: -1 , $x : 100% )
+        opacity: 0.7
+    &:active
         &::after
-            @include class($color: $color10, $index: -1 , $x : 100% )
-            opacity: 0.7
-        &:active
-            &::after
-                @include class($color: $color11, $index: -1 , $x : 100% )
-        &:hover
-            transform: scale(106%)
-            &::after
-                transform: translate(-50%,-50%)
+            @include class($color: $color11, $index: -1 , $x : 100% )
+    &:hover
+        transform: scale(106%)
+        &::after
+            transform: translate(-50%,-50%)

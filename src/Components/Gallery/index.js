@@ -9,7 +9,7 @@ import photo9 from "../../Assets/Images/insta3.png";
 const Gallery = () => {
   return (
     <div className="width">
-      <div className="gallery">
+      <div className="gallery" id="galeria">
         <img src={photo1} alt="gallery" />
         <img src={photo2} alt="gallery" />
         <img src={photo3} alt="gallery" />

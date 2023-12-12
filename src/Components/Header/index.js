@@ -12,7 +12,7 @@ const Header = () => {
         color="#d8a68a"
         text="Tworzymy dla was miejsce, gdzie każdy łyk to podróż w aromatyczne zakątki."
       />
-      <Button text="Sprawdź nasze menu" />
+      <Button href="/menu" text="Sprawdź nasze menu" />
     </div>
   );
 };

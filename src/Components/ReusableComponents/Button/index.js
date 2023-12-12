@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.sass";
 
 const Button = ({ text, color, margin, href }) => {
@@ -8,11 +9,11 @@ const Button = ({ text, color, margin, href }) => {
   };
 
   return (
-    <a className="custom-link" href={href} target="_blank" rel="noreferrer">
+    <Link to={href}>
       <button className="custom-button" style={buttonStyle}>
         {text}
       </button>
-    </a>
+    </Link>
   );
 };
 

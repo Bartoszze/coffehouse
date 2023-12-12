@@ -20,6 +20,7 @@ const HomePage = () => {
           text="Kawiarnia Kawa i Sztuka to miejsce, gdzie smak i estetyka spotykają się w doskonałym połączeniu. Przytulne wnętrze urządzone w ciepłych, pastelowych kolorach zachęca do relaksu i spędzenia czasu przy pysznej kawie. Oprócz tego, galeria sztuki prezentuje prace lokalnych artystów, co sprawia, że każda wizyta to nie tylko rozkosz dla podniebienia, ale także inspiracja dla duszy. Zapraszamy do odkrycia naszego magicznego miejsca, gdzie kawa staje się sztuką!"
           img={img}
           button="Galeria"
+          href="/#galeria"
         />
       </Block>
       <Aside />
@@ -30,6 +31,7 @@ const HomePage = () => {
           img={img2}
           direction={true}
           button="Menu"
+          href="/menu"
         />
       </Block>
       <Gallery />

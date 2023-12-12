@@ -16,7 +16,7 @@ const Information = (props) => {
       <div className="information__right">
         <Headline h="h2" text={props.headline} />
         <Text color="#a57053" text={props.text} />
-        <Button text={props.button} />
+        <Button text={props.button} href={props.href} />
       </div>
     </div>
   );
