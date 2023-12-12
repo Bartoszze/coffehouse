@@ -1,8 +1,8 @@
 import "./index.sass";
 
-const Loader = (props) => {
+const Loader = () => {
   return (
-    <div className={`loader${props.ready ? " ready" : ""}`}>
+    <div className="loader">
       <h1>Ładowanie</h1>
     </div>
   );

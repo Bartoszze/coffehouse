@@ -1,9 +1,9 @@
 @import '%PUBLIC_URL%/../src/Assets/Sass/_color.sass'
 
 nav
+    animation: slideBot 0.7s ease-out
     z-index: 9999
     border-radius: 11px
-    // background: rgba(192, 130, 97, 0.7)
     background: rgb($color10, 0.7)
     backdrop-filter: blur(10px)
     position: fixed
@@ -24,6 +24,9 @@ nav
             position: relative
             list-style: none outside none
             font-size: 20px
+            &:hover
+                a
+                    color: $color5
             a
                 display: flex
                 padding: 5px 8px 5px 8px
@@ -34,7 +37,7 @@ nav
                 transition: 0.2s ease-out
                 &:active
                     border-radius: 5px
-                    background-color: #7c7c7c9e
+                    background-color: $color5
 .indicator
     position: absolute
     bottom: 5%
@@ -44,3 +47,8 @@ nav
     background-color: $color1
     z-index: -1
     transition: 0.3s ease-out
+
+@keyframes slideBot
+    0%,20%
+        opacity: 0
+        transform: translate(-50%,-50%)

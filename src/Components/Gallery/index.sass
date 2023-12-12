@@ -1,3 +1,5 @@
+@import '%PUBLIC_URL%/../src/Assets/Sass/_color.sass'
+
 .gallery
     position: relative
     width: 100%
@@ -11,3 +13,9 @@
     img
         width: 33.3%
         padding: 30px
+        transition: 0.2s linear
+        border: 0px solid $headerColor
+        &:hover
+            backdrop-filter: blur(10px)
+            transform: scale(98%)
+            border: 10px solid $headerColor

@@ -18,6 +18,9 @@ const Nav = () => {
   };
 
   useEffect(() => {
+    window.scrollTo({
+      top: 0,
+    });
     const links = navElement.current.querySelectorAll("li a");
     const linkIndex = location.pathname === "/" ? 0 : 1;
     const selectedLink = links[linkIndex];
