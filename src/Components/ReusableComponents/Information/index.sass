@@ -5,6 +5,7 @@ $size: 35px
     justify-content: space-between
     position: relative
     width: 100%
+
     &__left
         margin-right: $size
         display: flex
@@ -26,3 +27,16 @@ $size: 35px
         p
             margin-bottom: 25px
             padding-right: 10%
+    @media (max-width: 991.98px)
+        flex-wrap: wrap
+        justify-content: center
+        &__left
+            position: relative
+            width: 90%
+            margin: 0
+            img
+                width: 100%
+        &__right
+            width: 100%
+            h2
+                margin-top: 15px

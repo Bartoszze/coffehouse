@@ -6,7 +6,7 @@ import Contact from "../../Components/Contact";
 const MenuPage = () => {
   return (
     <div className="menuPage">
-      <Block>
+      <Block id="menu">
         <Menu />
       </Block>
       <Contact />

@@ -35,9 +35,7 @@ const HomePage = () => {
         />
       </Block>
       <Gallery />
-      <div className="width">
-        <Contact />
-      </div>
+      <Contact />
       <Footer />
     </>
   );

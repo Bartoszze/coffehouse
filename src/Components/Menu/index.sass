@@ -1,7 +1,8 @@
 @import '%PUBLIC_URL%/../src/Assets/Sass/_color.sass'
 
 .menu
-    margin-top: -100px
+    $margin: 10px
+    margin-top: -150px
     margin-bottom: -200px
     animation: slideInHeader 0.7s ease-out
     position: relative
@@ -10,8 +11,9 @@
     padding: 25px
     padding-bottom: 100px
     background-attachment: fixed
+    font-size: 20px
     h2
-        min-width: 100vh
+        min-width: 60vw
     h3
         font-size: 30px
     &__content
@@ -19,18 +21,16 @@
         display: flex
         justify-content: center
         &--left
+            margin: $margin 0 $margin 0
             text-align: left
             width: 50%
         &--right
+            margin: $margin 0 $margin 0
             display: flex
-            text-align: center
+            text-align: right
+
             h3
                 width: 100px
-#border
-    h3
-        width: 90px
-        margin: 5px
-        border-bottom: 5px solid $color10
 
 @keyframes slideInHeader
     0%,20%
@@ -39,3 +39,13 @@
 
 .menuPage
     background: url("../../Assets/Images/bgstar.png")
+
+@media (max-width: 991.98px)
+    .menu
+        margin-bottom: -350px
+        width: 100%
+        overflow: hidden
+        h2
+            min-width: auto
+        h3
+            font-size: 20px

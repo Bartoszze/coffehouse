@@ -24,12 +24,4 @@ const App = createBrowserRouter([
   },
 ]);
 
-// const App = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route path="/" element={<Main />}>
-//       <Route index element={<HomePage />} />
-//       <Route index path="/menu" element={<Menu />} />
-//     </Route>
-//   )
-// );
 export default App;

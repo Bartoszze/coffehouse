@@ -2,8 +2,8 @@
 
 .footer
     background: linear-gradient(180deg, $color3 0%, rgba(244, 229, 218, 0.00) 100%)
-    margin: auto
     &__autor
+        padding: 20px
         $margin: 15px
         margin: $margin 0 $margin 0
         border-top: 3px solid rgb($color1, 0.5)
@@ -13,19 +13,23 @@
         width: 100%
         position: relative
         display: flex
-    &__block
-        position: relative
-        padding: 20px
-        width: 25%
-        img
-            width: 75%
+        &--block
+            position: relative
+            padding: 20px
+            width: 25%
+            img
+                width: 75%
     h2
         margin: 0
         font-size: 36px
-    &__width
-        margin: auto
-        max-width: 1500px
+    @media (max-width: 991.98px)
+        &__container
+            flex-wrap: wrap
+            &--block
+                width: 100%
+                img
+                    margin: auto
 
-#photo
-    display: flex
-    align-items: center
+    #photo
+        display: flex
+        align-items: center

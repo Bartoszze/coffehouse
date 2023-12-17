@@ -22,9 +22,8 @@
         border-bottom-left-radius: 11px
         border-bottom-right-radius: 11px
         background-color: rgb($color10, 0.06)
-    div
-        width: 30%
     &__block
+        width: 30%
         display: flex
         align-items: center
         flex-direction: column
@@ -35,3 +34,7 @@
             color: $color10
         h2
             font-size: 36px
+    @media (max-width: 991.98px)
+        &__block
+            width: 85%
+            margin-bottom: 35px

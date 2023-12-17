@@ -21,7 +21,6 @@
         margin: -15px auto 15px auto
         width: 60%
         font-size: 25px
-        font-size: 1.2vw
     h1
         color: $headerColor
     h2
@@ -30,7 +29,13 @@
         line-height: 100%
         padding: 10px
         font-size: 6.5vw
-
+    @media (max-width: 991.98px)
+        .center
+            padding: 10px
+        h2,h1
+            font-size: 13vw
+        p
+            width: 100%
 @keyframes slideInHeader
     0%,20%
         opacity: 0
