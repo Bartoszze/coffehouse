@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcoffehouse=self.webpackChunkcoffehouse||[]).push([[478],{478:(s,e,r)=>{r.r(e),r.d(e,{default:()=>a});var c=r(689),h=r(184);const a=()=>{const s=(0,c.lk)();return(0,h.jsxs)("div",{className:"error-page",children:[(0,h.jsx)("h1",{children:"Oops!"}),(0,h.jsxs)("p",{children:[(0,h.jsx)("i",{children:s.data}),(0,h.jsx)("br",{}),(0,h.jsx)("i",{children:s.status})]})]})}}}]);
+//# sourceMappingURL=478.16d412db.chunk.js.map
