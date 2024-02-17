@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/coffehouse/static/css/main.f0f19a81.css",
-    "main.js": "/coffehouse/static/js/main.931f1415.js",
-    "static/css/225.ca3bff14.chunk.css": "/coffehouse/static/css/225.ca3bff14.chunk.css",
-    "static/js/225.15685375.chunk.js": "/coffehouse/static/js/225.15685375.chunk.js",
+    "main.js": "/coffehouse/static/js/main.0086916d.js",
+    "static/css/225.231c3580.chunk.css": "/coffehouse/static/css/225.231c3580.chunk.css",
+    "static/js/225.5bdaf075.chunk.js": "/coffehouse/static/js/225.5bdaf075.chunk.js",
     "static/css/478.fe2e05f6.chunk.css": "/coffehouse/static/css/478.fe2e05f6.chunk.css",
     "static/js/478.16d412db.chunk.js": "/coffehouse/static/js/478.16d412db.chunk.js",
-    "static/css/163.e835c348.chunk.css": "/coffehouse/static/css/163.e835c348.chunk.css",
-    "static/js/163.0973bc50.chunk.js": "/coffehouse/static/js/163.0973bc50.chunk.js",
-    "static/css/681.3c24ac4c.chunk.css": "/coffehouse/static/css/681.3c24ac4c.chunk.css",
-    "static/js/681.cc9846af.chunk.js": "/coffehouse/static/js/681.cc9846af.chunk.js",
+    "static/css/163.efa65adb.chunk.css": "/coffehouse/static/css/163.efa65adb.chunk.css",
+    "static/js/163.f605ce13.chunk.js": "/coffehouse/static/js/163.f605ce13.chunk.js",
+    "static/css/679.405af98e.chunk.css": "/coffehouse/static/css/679.405af98e.chunk.css",
+    "static/js/679.35ddd487.chunk.js": "/coffehouse/static/js/679.35ddd487.chunk.js",
     "static/css/837.e6e7f43a.chunk.css": "/coffehouse/static/css/837.e6e7f43a.chunk.css",
     "static/js/837.b55a7f57.chunk.js": "/coffehouse/static/js/837.b55a7f57.chunk.js",
     "static/media/header.png": "/coffehouse/static/media/header.62ed113e8cad1036150a.png",
@@ -27,20 +27,20 @@
     "index.html": "/coffehouse/index.html",
     "static/media/image7.svg": "/coffehouse/static/media/image7.6968eaf17f1ca79f15040956c1e6082d.svg",
     "main.f0f19a81.css.map": "/coffehouse/static/css/main.f0f19a81.css.map",
-    "main.931f1415.js.map": "/coffehouse/static/js/main.931f1415.js.map",
-    "225.ca3bff14.chunk.css.map": "/coffehouse/static/css/225.ca3bff14.chunk.css.map",
-    "225.15685375.chunk.js.map": "/coffehouse/static/js/225.15685375.chunk.js.map",
+    "main.0086916d.js.map": "/coffehouse/static/js/main.0086916d.js.map",
+    "225.231c3580.chunk.css.map": "/coffehouse/static/css/225.231c3580.chunk.css.map",
+    "225.5bdaf075.chunk.js.map": "/coffehouse/static/js/225.5bdaf075.chunk.js.map",
     "478.fe2e05f6.chunk.css.map": "/coffehouse/static/css/478.fe2e05f6.chunk.css.map",
     "478.16d412db.chunk.js.map": "/coffehouse/static/js/478.16d412db.chunk.js.map",
-    "163.e835c348.chunk.css.map": "/coffehouse/static/css/163.e835c348.chunk.css.map",
-    "163.0973bc50.chunk.js.map": "/coffehouse/static/js/163.0973bc50.chunk.js.map",
-    "681.3c24ac4c.chunk.css.map": "/coffehouse/static/css/681.3c24ac4c.chunk.css.map",
-    "681.cc9846af.chunk.js.map": "/coffehouse/static/js/681.cc9846af.chunk.js.map",
+    "163.efa65adb.chunk.css.map": "/coffehouse/static/css/163.efa65adb.chunk.css.map",
+    "163.f605ce13.chunk.js.map": "/coffehouse/static/js/163.f605ce13.chunk.js.map",
+    "679.405af98e.chunk.css.map": "/coffehouse/static/css/679.405af98e.chunk.css.map",
+    "679.35ddd487.chunk.js.map": "/coffehouse/static/js/679.35ddd487.chunk.js.map",
     "837.e6e7f43a.chunk.css.map": "/coffehouse/static/css/837.e6e7f43a.chunk.css.map",
     "837.b55a7f57.chunk.js.map": "/coffehouse/static/js/837.b55a7f57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0f19a81.css",
-    "static/js/main.931f1415.js"
+    "static/js/main.0086916d.js"
   ]
 }
