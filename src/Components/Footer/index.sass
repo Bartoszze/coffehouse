@@ -1,14 +1,8 @@
 @import '%PUBLIC_URL%/../src/Assets/Sass/_color.sass'
 
 .footer
-    background: linear-gradient(180deg, $color3 0%, rgba(244, 229, 218, 0.00) 100%)
-    &__autor
-        padding: 20px
-        $margin: 15px
-        margin: $margin 0 $margin 0
-        border-top: 3px solid rgb($color1, 0.5)
-        font-size: 18px
-        padding-top: $margin
+    border-top: 3px solid $color1
+    background: linear-gradient(180deg, $color3 0%, rgba(201, 151, 116, 0) 100%)
     &__container
         width: 100%
         position: relative
@@ -22,6 +16,14 @@
     h2
         margin: 0
         font-size: 36px
+    &__autor
+        padding: 10px
+        $margin: 15px
+        margin: $margin 0 $margin 0
+        border-top: 3px solid rgb($color1, 0.5)
+        padding-top: $margin
+        h2, p
+            font-size: 22px
     @media (max-width: 991.98px)
         &__container
             flex-wrap: wrap

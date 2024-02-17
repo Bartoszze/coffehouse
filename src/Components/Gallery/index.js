@@ -9,7 +9,14 @@ import photo9 from "../../Assets/Images/insta3.png";
 const Gallery = () => {
   return (
     <div className="width">
-      <div className="gallery" id="galeria">
+      <div
+        className="gallery"
+        id="galeria"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-sine"
+        data-aos-delay="400"
+        data-aos-offset="0"
+      >
         <img src={photo1} alt="gallery" />
         <img src={photo2} alt="gallery" />
         <img src={photo3} alt="gallery" />
