@@ -7,8 +7,8 @@ const Footer = () => {
   const color = "#a57053";
 
   return (
-    <div className="footer">
-      <div className="width">
+    <div className="width">
+      <div className="footer">
         <div className="footer__container">
           <div className="footer__container--block" id="photo">
             <img src={logo} alt="coffe cup" />
